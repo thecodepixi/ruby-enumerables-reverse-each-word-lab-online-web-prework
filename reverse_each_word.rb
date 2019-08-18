@@ -9,3 +9,10 @@
 #   reversed_sentence_string
   
 # end
+
+def make_array(words) 
+  
+  word_array = words.split(" ")
+  
+  
+  
