@@ -10,19 +10,19 @@ def reverse_each_word(words)
   
 end
 
-def reverse_each_word(words) 
+# def reverse_each_word(words) 
   
-  word_array = words.split(" ")
+#   word_array = words.split(" ")
   
-  reversed_array = []
+#   reversed_array = []
   
-  word_array.each{|x| reversed_array.push(x.reverse)}
+#   word_array.each{|x| reversed_array.push(x.reverse)}
   
-  new_sentence = reversed_array.join(" ")
+#   new_sentence = reversed_array.join(" ")
   
-  new_sentence
+#   new_sentence
   
-end
+# end
   
   
   
