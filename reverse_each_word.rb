@@ -3,7 +3,7 @@ require "pry"
 def reverse_each_word(words) 
   
   binding.pry 
-  sentence_array = %w[#{words}]
+  word_array = words.split(" ")
   
   reverse_sentence_words = sentence_array.each{ |x| x.reverse }
   
