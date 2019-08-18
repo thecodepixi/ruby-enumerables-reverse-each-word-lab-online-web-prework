@@ -16,7 +16,7 @@ def reverse_each_word(words)
   
   reversed_array = []
   
-  word_array.each{|x| reversed_array.push(x.reverse)
+  word_array.each{|x| reversed_array.push(x.reverse)}
   
   new_sentence = reversed_array.join(" ")
   
